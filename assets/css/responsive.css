@@ -1,0 +1,438 @@
+
+
+/* Mobile screen */
+@media screen and (max-width: 480px) and (min-width: 299px) {
+  /* navigation section */
+  .nav-toggle{
+    display: block;
+  }
+  .navigation{
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+    transition: opacity 0.5s, visibility 0s 0.5s;
+  }
+  .navigation .primary-nav{
+    position: relative;
+    top: 45%;
+    -moz-transform: translateY(-45%);
+    -ms-transform: translateY(-45%);
+    -webkit-transform: translateY(-45%);
+    transform: translateY(-45%);
+  }
+  .navigation li{
+    display: block;
+    margin-bottom: 20px;
+  }
+  .navigation a{
+    text-decoration: none;
+    color: #ffffffbf;
+    display: block;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+  }
+  .navigation a:hover{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .content .tittle{
+    font-size: 40px;
+    padding: 0px;
+    margin-top: 100px;
+  }
+  .content .subtittle{
+    font-size: 16px;
+    padding: 0px;
+  }
+  /* team section */
+  section.team{
+    margin-top: 50px;
+    padding: 50px 0px;
+  }
+  section.team .container{
+    text-align: center;
+  }
+  section.team .image img{
+    width: 70%;
+  }
+  section.team .col-sm-6{
+    margin-top: 50px;
+  }
+  section.team .description{
+    padding: 0 40px;
+  }
+  .social-media{
+    padding: 5px 100px;
+  }
+  section.team .social-media a{
+    margin-right: 5px;
+  }
+  /* testimonial section */
+  blockquote{
+    margin-top: 10px;
+  }
+  .testimonials blockquote p{
+    font-size: 25px;
+  }
+  /* footer section */
+  footer .social-media {
+    padding: 5px 125px;
+    margin: 5px 0;
+  }
+  footer #tittle-icon{
+        margin: 0 0px;
+  }
+  footer .footer-col{
+    padding-top: 20px;
+  }
+
+
+}
+
+/* Tablet screen */
+@media screen and (max-width: 768px) and (min-width: 480px){
+  /* navigation section */
+  .nav-toggle{
+    display: block;
+  }
+  .navigation{
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+    transition: opacity 0.5s, visibility 0s 0.5s;
+  }
+  .navigation .primary-nav{
+    position: relative;
+    top: 45%;
+    -moz-transform: translateY(-45%);
+    -ms-transform: translateY(-45%);
+    -webkit-transform: translateY(-45%);
+    transform: translateY(-45%);
+  }
+  .navigation li{
+    display: block;
+    margin-bottom: 20px;
+  }
+  .navigation a{
+    text-decoration: none;
+    color: #ffffffbf;
+    display: block;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+  }
+  .navigation a:hover{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .content .tittle{
+    font-size: 45px;
+    padding: 0px;
+    margin-top: 140px;
+  }
+  .content .subtittle{
+    font-size: 16px;
+    padding: 0px;
+  }
+  /* team section */
+  section.team{
+    margin-top: 50px;
+    padding: 50px 0px;
+  }
+  section.team .container{
+    text-align: center;
+  }
+  section.team .image img{
+    width: 50%;
+  }
+  section.team .col-sm-6{
+    margin-top: 50px;
+  }
+  section.team .description{
+    padding: 0 40px;
+  }
+  .social-media{
+    padding: 5px 100px;
+  }
+  section.team .social-media a{
+    margin-right: 5px;
+  }
+  /* testimonial section */
+  blockquote{
+    margin-top: 10px;
+  }
+  .testimonials blockquote p{
+    font-size: 25px;
+  }
+  /* footer section */
+  footer .social-media {
+    padding: 5px 125px;
+    /* padding: 5px 270px; */
+    margin: 5px 0;
+  }
+  footer #tittle-icon{
+        margin: 0 0px;
+  }
+  footer .footer-col{
+    padding-top: 20px;
+  }
+
+}
+
+/* Ipads screen */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  /* navigation section */
+  .nav-toggle{
+    display: block;
+  }
+  .navigation{
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+    transition: opacity 0.5s, visibility 0s 0.5s;
+  }
+  .navigation .primary-nav{
+    position: relative;
+    top: 45%;
+    -moz-transform: translateY(-45%);
+    -ms-transform: translateY(-45%);
+    -webkit-transform: translateY(-45%);
+    transform: translateY(-45%);
+  }
+  .navigation li{
+    display: block;
+    margin-bottom: 20px;
+  }
+  .navigation a{
+    text-decoration: none;
+    color: #ffffffbf;
+    display: block;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+  }
+  .navigation a:hover{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .content .tittle{
+    font-size: 60px;
+    padding: 0px;
+  }
+  .content .subtittle{
+    font-size: 20px;
+    padding: 0px;
+  }
+  /* team section */
+  section.team{
+    margin-top: 50px;
+    padding: 50px 0px;
+  }
+  section.team .container{
+    text-align: center;
+  }
+  section.team .image img{
+    width: 70%;
+  }
+  section.team.col-sm-6{
+    margin-top: 50px;
+  }
+  section.team .description{
+    padding: 0 40px;
+  }
+  .social-media{
+    padding: 5px 60px;
+  }
+  section.team .social-media a{
+    margin-right: 5px;
+  }
+  /* testimonial section */
+  blockquote{
+    margin-top: 10px;
+  }
+  .testimonials blockquote p{
+    font-size: 25px;
+  }
+  /* footer section */
+  footer .social-media {
+    padding: 5px 270px;
+    margin: 5px 0;
+  }
+  footer #tittle-icon{
+        margin: 0 0px;
+  }
+  footer .footer-col{
+    padding-top: 20px;
+  }
+
+}
+
+/* Small Desktop screen */
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+
+  /* navigation section */
+  .nav-toggle{
+    display: block;
+  }
+  .navigation{
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+    transition: opacity 0.5s, visibility 0s 0.5s;
+  }
+  .navigation .primary-nav{
+    position: relative;
+    top: 45%;
+    -moz-transform: translateY(-45%);
+    -ms-transform: translateY(-45%);
+    -webkit-transform: translateY(-45%);
+    transform: translateY(-45%);
+  }
+  .navigation li{
+    display: block;
+    margin-bottom: 20px;
+  }
+  .navigation a{
+    text-decoration: none;
+    color: #ffffffbf;
+    display: block;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+  }
+  .navigation a:hover{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .content .tittle{
+    font-size: 65px;
+  }
+  /* team section */
+  section.team{
+    margin-top: 50px;
+    padding: 50px 0px;
+  }
+  section.team .container{
+    width: 100%;
+  }
+  section.team .image img{
+    width: 100%;
+  }
+  section.team .social-media a{
+    margin-right: 4px;
+  }
+  /* testimonial section */
+  blockquote{
+    margin-top: 10px;
+  }
+  .testimonials blockquote p{
+    font-size: 25px;
+  }
+  /* footer section */
+  footer .social-media {
+    padding: 0px 55px;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+
+  /* navigation section */
+  .nav-toggle{
+    display: block;
+  }
+  .navigation{
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+    transition: opacity 0.5s, visibility 0s 0.5s;
+  }
+  .navigation .primary-nav{
+    position: relative;
+    top: 45%;
+    -moz-transform: translateY(-45%);
+    -ms-transform: translateY(-45%);
+    -webkit-transform: translateY(-45%);
+    transform: translateY(-45%);
+  }
+  .navigation li{
+    display: block;
+    margin-bottom: 20px;
+  }
+  .navigation a{
+    text-decoration: none;
+    color: #ffffffbf;
+    display: block;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+  }
+  .navigation a:hover{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .content .tittle{
+    font-size: 65px;
+  }
+  /* team section */
+  section.team{
+    margin-top: 50px;
+    padding: 50px 0px;
+  }
+  section.team .container{
+    width: 100%;
+  }
+  section.team .image img{
+    width: 100%;
+  }
+  section.team .social-media a{
+    margin-right: 4px;
+  }
+
+  /* testimonial section */
+  blockquote{
+    margin-top: 10px;
+  }
+  .testimonials blockquote p{
+    font-size: 30px;
+  }
+
+  /* footer section */
+  footer .social-media {
+    padding: 0px 55px;
+  }
+}
